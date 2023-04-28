@@ -8,7 +8,7 @@ The objective of the game is to navigate through a field of holes and find your 
 
 ## Gameplay
 
-The game starts by generating a random field using the `Field` class, with a player represented by `^`, a hat represented by `^`, and holes represented by `O`. The player can navigate the field by entering `w`, `a`, `s`, or `d` to move up, left, down, or right, respectively. If the player enters an invalid input, the game will prompt them to try again.
+The game starts by generating a random field using the `Field` class, with a player represented by `*`, a hat represented by `^`, and holes represented by `O`. The player can navigate the field by entering `w`, `a`, `s`, or `d` to move up, left, down, or right, respectively. If the player enters an invalid input, the game will prompt them to try again.
 
 If the player moves onto a hole, the game ends and the player loses. If the player moves onto the hat, the game ends and the player wins. If the player moves out of bounds, the game ends and the player loses.
 
